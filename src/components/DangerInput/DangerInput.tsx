@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Form from "react-bootstrap";
+import { Form } from "react-bootstrap";
 import DangerBar from "./../DangerBar/DangerBar";
 
 const DangerInput = () => {
@@ -13,10 +13,11 @@ const DangerInput = () => {
 
   return (
     <div className="m-3 w-50">
+      
       <h2>Ejemplo 1</h2>
 
       {/*Componente Padre*/}
-      <Form.Range value={value} onChange={handleChange} />
+      <Form.Range value={value} onChange={handleChange}/>
 
       {/*Componente Hijo*/}
       <DangerBar value={value} />
