@@ -16,7 +16,7 @@ const AboutUs = () => {
           <Card className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="src/assets/images/aboutUs1.jpg"
+              src="https://dogtime.com/wp-content/uploads/sites/12/2018/11/GettyImages-1448525820.jpg"
               alt="boyero"
             />
             <Card.Body>
@@ -31,7 +31,7 @@ const AboutUs = () => {
           <Card className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="src/assets/images/aboutUs2.jpg"
+              src="https://www.rover.com/blog/wp-content/uploads/2019/07/cockerspaniel1.jpg"
               alt="cocker"
             />
             <Card.Body>
@@ -46,7 +46,7 @@ const AboutUs = () => {
           <Card className="card" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="src/assets/images/aboutUs3.jpg"
+              src="https://harness-toku.jp/wp-content/uploads/2019/03/image001-1024x683.jpg"
               alt="golden"
             />
             <Card.Body>
